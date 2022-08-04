@@ -1,0 +1,7 @@
+.our-work-section {
+    @extend .section;
+}
+
+.our-work-section__flex-wrapper {
+    @include flex(row, space-between, center);
+}

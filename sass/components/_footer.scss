@@ -1,0 +1,23 @@
+footer {
+    background: var(--dark-gray);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__flex-wrapper {
+    @include flex(row, space-between, flex-start);
+}
+
+.footer__social-links {
+    margin-right: 94px;
+}
+
+.footer__subtitle{
+    @extend .subtitle;
+    
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    color: var(--white);
+}
+

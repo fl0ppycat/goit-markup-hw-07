@@ -1,0 +1,9 @@
+.advantages-section {
+    @extend .section;
+
+    padding-bottom: 0;
+}
+
+.advantages-section__flex-wrapper {
+    @include flex(row, space-between, center);
+}

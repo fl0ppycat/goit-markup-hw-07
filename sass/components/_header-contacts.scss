@@ -1,0 +1,19 @@
+.header-contacts {
+    margin-left: 94px;
+    
+    &:last-of-type {
+        color: var(--light-gray);
+    }
+}
+
+.header-contacts__item:not(:first-of-type) {
+    margin-left: 50px;
+}
+
+.header-contacts__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+    fill: currentColor;
+}
